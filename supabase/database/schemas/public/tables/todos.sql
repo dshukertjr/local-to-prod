@@ -1,6 +1,7 @@
 CREATE TABLE public.todos (
   id    bigint NOT NULL,
-  title text   NOT NULL
+  title text   NOT NULL,
+  description text
 );
 
 ALTER TABLE public.todos
